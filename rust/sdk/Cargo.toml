@@ -25,6 +25,7 @@ sdk = ["no-entrypoint", "anchor-client", "ed25519-dalek", "tokio", "thiserror"]
 default = ["sdk"]
 
 [dependencies]
+base64ct = "1.6.0"
 anchor-lang.workspace = true
 anchor-spl.workspace = true
 anchor-client = { workspace = true, optional = true }
