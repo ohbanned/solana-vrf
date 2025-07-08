@@ -27,7 +27,7 @@ default = ["sdk"]
 [dependencies]
 anchor-lang.workspace = true
 anchor-spl.workspace = true
-anchor-client = { workspace = true, optional = true, features = ["async"] }
+anchor-client = { workspace = true, optional = true }
 ed25519-dalek = { workspace = true, optional = true }
 tokio = { version = "1", optional = true }
 thiserror = { version = "1", optional = true }
